@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		534B8DE229268DAA007D5042 /* GrocerySections.swift in Sources */ = {isa = PBXBuildFile; fileRef = 534B8DE129268DAA007D5042 /* GrocerySections.swift */; };
 		538F9FDD2925D17600471AF5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 538F9FDC2925D17600471AF5 /* AppDelegate.swift */; };
 		538F9FDF2925D17600471AF5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 538F9FDE2925D17600471AF5 /* SceneDelegate.swift */; };
 		538F9FE12925D17600471AF5 /* GrocerySectionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 538F9FE02925D17600471AF5 /* GrocerySectionsViewController.swift */; };
@@ -38,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		534B8DE129268DAA007D5042 /* GrocerySections.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrocerySections.swift; sourceTree = "<group>"; };
 		538F9FD92925D17600471AF5 /* Bishop_GroceryApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bishop_GroceryApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		538F9FDC2925D17600471AF5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		538F9FDE2925D17600471AF5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -112,6 +114,7 @@
 				538F9FEA2925D17700471AF5 /* Info.plist */,
 				538FA0102925D91600471AF5 /* GroceryItemsViewController.swift */,
 				538FA0122925E01300471AF5 /* ItemInfoViewController.swift */,
+				534B8DE129268DAA007D5042 /* GrocerySections.swift */,
 			);
 			path = Bishop_GroceryApp;
 			sourceTree = "<group>";
@@ -265,6 +268,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				538F9FE12925D17600471AF5 /* GrocerySectionsViewController.swift in Sources */,
+				534B8DE229268DAA007D5042 /* GrocerySections.swift in Sources */,
 				538F9FDD2925D17600471AF5 /* AppDelegate.swift in Sources */,
 				538FA0112925D91600471AF5 /* GroceryItemsViewController.swift in Sources */,
 				538FA0132925E01300471AF5 /* ItemInfoViewController.swift in Sources */,
