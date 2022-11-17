@@ -13,6 +13,7 @@ class GrocerySectionViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
+    var sectionsArray = sections
     
     @IBOutlet weak var grocerySectionsTableView: UITableViewCell!
     
@@ -22,4 +23,6 @@ class GrocerySectionViewController: UIViewController {
             let destination = segue.destination as! GroceryItemsViewController
         }
     }
+    
+    
 }
